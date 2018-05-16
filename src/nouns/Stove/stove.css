@@ -1,0 +1,114 @@
+.root {
+  width: 100vw;
+  height: 500px;
+  text-align: center;
+  background-color: #eee;
+  padding: 100px 0 0 0;
+}
+
+.page {
+  background-color: white;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.stove {
+  height: 100%;
+  width: 100%;
+  padding: 2px;
+  margin: 0;
+}
+
+.panel {
+  width: 75%;
+  height: 25%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  background-color: #ccc;
+  border-radius: 5px 5px 0 0;
+}
+
+.torso{
+  height: 75%;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #ccc;
+}
+
+.dial-group {
+  margin: 1em 2em;
+  border: 1px solid black;
+  height: 2em;
+  line-height: 2;
+}
+
+.dial {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+}
+
+.door {
+  border: 1px solid black;
+  margin: 8px;
+  height: calc(100% - 26px);
+  padding: 0 16px 0 16px;
+  overflow: hidden;
+}
+
+.handle-wrapper {
+  padding-top: 8px;
+  height: auto;
+}
+
+.inside {
+  background: #6d5555;
+  height: 80%;
+  margin-left: -16px;
+  margin-right: -16px;
+  box-shadow: inset -1px -14px 7px 19px #2f2424;
+}
+
+.new-img {
+  width: 90%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-radius: 3px;
+  margin-top: 25%;
+}
+
+.open {
+  display: block;
+}
+
+.closed {
+  display: none;
+}
+
+.handle {
+  background-color: black;
+  width: 100%;
+  height: 1.5em;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.window {
+  border-top: 1px solid darkgray;
+  background-color: white;
+  margin-top: 8px;
+  height: 70%;
+  overflow: hidden;
+}
+
+.window__view {
+  width: 100%;
+}
