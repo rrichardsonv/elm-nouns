@@ -5,3 +5,4 @@ type Msg
     = NoOp
     | ToggleDoor
     | ChangeVideo String
+    | ChangeRoute Int

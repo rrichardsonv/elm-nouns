@@ -9,10 +9,7 @@ import View exposing (view)
 
 init : ( Model, Cmd Msg )
 init =
-    ( { open = False
-      , videoSrc = "https://media.giphy.com/media/UflLFAje3IXKw/giphy.mp4"
-      , nextVideoSrc = ""
-      , route = 0
+    ( { hand = []
       }
     , Cmd.none
     )
